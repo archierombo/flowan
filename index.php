@@ -11,6 +11,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--Custom Css-->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
+      <!--font awesome-->
+      <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,13 +50,34 @@
     </div>
   </div><!--menu-->
   <div class="row"><!--Slideshow and category menu-->
-<div class="col-sm-4"><!--category menu-->
-    <div class="categories_menu">
+<div class="col-sm-2"><!--sidebar-->
+    <div class="row"><!--category menu-->
+         <div class="categories_menu">
         <h2>Categories</h2>
+        <ul class="side-menu">
+            <li><a href="#">TV</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">TV</a></li>
+        </ul>
     </div>
-</div><!--category menu-->
-    <div class="col-sm-8"><!--Slideshow-->
-      <!-- Carousel
+
+    </div><!--category menu-->
+    <div class="row"><!--specials-->
+        <div class="specials">
+            <h3>Specials&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></h3>
+        </div>
+        </div><!--specials-->
+</div><!--sidebar-->
+      <div class="col-sm-1 columns">&nbsp;</div>
+    <div class="col-sm-8" ><!--main body-->
+        <div class="row" style="border:1px solid #f2f2f2;"><!--slideshow-->
+            <div class="col-sm-12">
+                <!-- Carousel
     ================================================== -->
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -65,7 +88,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img class="first-slide" src="img/office_supplies.jpg" class="img-responsive" alt="First slide">
+            <img class="first-slide" src="img/office_supplies.jpg" style="height:400px" class="img-responsive" alt="First slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Example headline.</h1>
@@ -75,7 +98,7 @@
             </div>
           </div>
           <div class="item">
-            <img class="second-slide" src="img/office_supplies.jpg" class="img-responsive" alt="Second slide">
+            <img class="second-slide" src="img/office_supplies.jpg" style="height:400px" class="img-responsive" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Another example headline.</h1>
@@ -85,7 +108,7 @@
             </div>
           </div>
           <div class="item">
-            <img class="third-slide" src="img/office_supplies.jpg" class="img-responsive" alt="Third slide">
+            <img class="third-slide" src="img/office_supplies.jpg" style="height:400px" class="img-responsive" alt="Third slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>One more for good measure.</h1>
@@ -104,23 +127,27 @@
           <span class="sr-only">Next</span>
         </a>
       </div><!-- /.carousel -->
-    </div><!--Slideshow-->
+            </div>
+        </div><!--slideshow-->
+      <div class="row" id="supplies"><!--after slideshow-->
+    <div class="col-sm-3">
+      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+    </div>
+    <div class="col-sm-3">
+      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+    </div>
+    <div class="col-sm-3">
+      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+    </div>
+    <div class="col-sm-3">
+      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+    </div>
+  </div><!--after slideshow-->
+    </div><!--main body-->
+      <div class="col-sm-1">&nbsp;</div>
   </div><!--Slideshow and category menu-->
 
-  <div class="row" id="supplies">
-    <div class="col-sm-3">
-      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
-    </div>
-    <div class="col-sm-3">
-      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
-    </div>
-    <div class="col-sm-3">
-      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
-    </div>
-    <div class="col-sm-3">
-      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
-    </div>
-  </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
