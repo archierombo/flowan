@@ -49,7 +49,9 @@
   </div><!--menu-->
   <div class="row"><!--Slideshow and category menu-->
 <div class="col-sm-4"><!--category menu-->
-
+    <div class="categories_menu">
+        <h2>Categories</h2>
+    </div>
 </div><!--category menu-->
     <div class="col-sm-8"><!--Slideshow-->
       <!-- Carousel

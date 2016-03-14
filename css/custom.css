@@ -31,3 +31,15 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
     background-repeat: repeat-x;
 }
+categories_menu h2{
+    padding: 18px 5px 18px 20px;
+font-size: 19px;
+line-height: 24px;
+font-weight: 400;
+background: #19caaf;
+border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+color: #FFF;
+margin: 0;
+text-transform: none;
+}
