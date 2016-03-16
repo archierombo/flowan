@@ -68,9 +68,15 @@
 
     </div><!--category menu-->
     <div class="row"><!--specials-->
-        <div class="specials">
-            <h3>Specials&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></h3>
+        <div class="col-sm-12">
+            <div class="specials">
+                <h3>Specials&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></h3>
+            </div>
+            <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail"><br><br>
+            <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail"><br><br>
+            <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail"><br><br>
         </div>
+
         </div><!--specials-->
 </div><!--sidebar-->
       <div class="col-sm-1 columns">&nbsp;</div>
@@ -143,6 +149,18 @@
       <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
     </div>
   </div><!--after slideshow-->
+        <h3>Latest</h3>
+        <div class="row"><!--latest-->
+            <div class="col-sm-4">
+                <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-sm-4">
+                <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-sm-4">
+                <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+            </div>
+        </div><!--latest-->
     </div><!--main body-->
       <div class="col-sm-1">&nbsp;</div>
   </div><!--Slideshow and category menu-->
