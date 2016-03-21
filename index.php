@@ -55,14 +55,13 @@
          <div class="categories_menu">
         <h2>Categories</h2>
         <ul class="side-menu">
-            <li><a href="#">TV</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">TV</a></li>
+
+            <li><a href="#">Office &amp;School Stationery</a></li>
+            <li><a href="#">Office Care</a></li>
+            <li><a href="#">Sanitary Ware</a></li>
+            <li><a href="#">Carpet Care</a></li>
+            <li><a href="#">Cereals &amp; Dry Food Stuffs</a></li>
+            <li><a href="#">Bottled Water</a></li>
         </ul>
     </div>
 
@@ -72,9 +71,9 @@
             <div class="specials">
                 <h3>Specials&nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></h3>
             </div>
-            <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail"><br><br>
-            <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail"><br><br>
-            <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail"><br><br>
+            <img src="site_pics/water.jpg" class="img-responsive img-thumbnail"><br><br>
+            <img src="site_pics/carpetsclean.jpg" class="img-responsive img-thumbnail"><br><br>
+            <img src="site_pics/office-supplies.jpg" class="img-responsive img-thumbnail"><br><br>
         </div>
 
         </div><!--specials-->
@@ -137,22 +136,23 @@
         </div><!--slideshow-->
       <div class="row" id="supplies"><!--after slideshow-->
     <div class="col-sm-3">
-      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+      <img src="site_pics/Supplies.jpg" class="img-responsive img-thumbnail">
     </div>
     <div class="col-sm-3">
-      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+      <img src="site_pics/Office-Stationery-Supplies.jpg" class="img-responsive img-thumbnail">
     </div>
     <div class="col-sm-3">
-      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+      <img src="site_pics/supplies-image.jpg" class="img-responsive img-thumbnail">
     </div>
     <div class="col-sm-3">
-      <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+      <img src="site_pics/sanitary2.jpg" class="img-responsive img-thumbnail">
     </div>
   </div><!--after slideshow-->
-        <h3>Latest</h3>
+        <div class="clearfix">&nbsp;</div>
+        <h3 class="latest">Latest&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></h3>
         <div class="row"><!--latest-->
             <div class="col-sm-4">
-                <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
+                <img src="site_pics/sanitary3.jpg" class="img-responsive img-thumbnail">
             </div>
             <div class="col-sm-4">
                 <img src="img/office_supplies.jpg" class="img-responsive img-thumbnail">
@@ -164,6 +164,19 @@
     </div><!--main body-->
       <div class="col-sm-1">&nbsp;</div>
   </div><!--Slideshow and category menu-->
+  <div class="row" style="background: #f2f2f2;padding: 42px 0 15px;"><!--about us-->
+      <div class="col-sm-6">
+          <h5 style="margin: 0 0 15px;font-size: 13px;font-weight: 300;color: #2f2f2f;">About</h5>
+          <p style="line-height: 19px;">Flowan General Supplies is a company that sources and delivers all your office and cleaning  supplies at cost effective prices. The company was founded  and registered with the Registrar of Companies in May 2015 by Florence W. Ngugi as a sole proprietorship to take care of the endless demands of all kinds of office and cleaning supplies in the country. </p>
+      </div>
+      <div class="col-sm-6">
+          <h5 style="margin: 0 0 15px;font-size: 13px;font-weight: 300;color: #2f2f2f;">What We do</h5>
+          <p style="line-height: 19px;">Flowan goes beyond all customer expectations to source and deliver all supplies to our customers. </p>
+          <h5 style="margin: 0 0 15px;font-size: 13px;font-weight: 300;color: #2f2f2f;">How we do it</h5>
+          <p style="line-height: 19px;">Reliability, safety, and commitment describe us.</p>
+      </div>
+  </div><!--about us-->
+
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
