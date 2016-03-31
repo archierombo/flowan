@@ -40,7 +40,7 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.php" class="active">Home</a></li>
-              <li><a href="#">About Us</a> </li>
+<!--              <li><a href="#">About Us</a> </li>-->
               <li><a href="#">Supplies</a> </li>
               <li><a href="#">Contact Us</a> </li>
             </ul>
@@ -90,35 +90,56 @@
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <img class="first-slide" src="img/office_supplies.jpg" style="height:400px" class="img-responsive" alt="First slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Example headline.</h1>
-                <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-              </div>
+                <h1>Office Supplies</h1>
+                  </div>
             </div>
           </div>
           <div class="item">
-            <img class="second-slide" src="img/office_supplies.jpg" style="height:400px" class="img-responsive" alt="Second slide">
+            <img class="second-slide" src="slideshow/cereals%202.jpg" style="height:400px;width: 1024px;" class="img-responsive" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-              </div>
+                <h1>Cereals </h1>
+              </div> 
             </div>
           </div>
           <div class="item">
-            <img class="third-slide" src="img/office_supplies.jpg" style="height:400px" class="img-responsive" alt="Third slide">
+            <img class="third-slide" src="slideshow/cereals1.jpg" style="height:400px;width: 1024px;" class="img-responsive" alt="Third slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                <h1>Cereals &amp; Dry Foodstuffs</h1>
+              </div>
+            </div>
+          </div> 
+             <div class="item">
+            <img class="fourth-slide" src="slideshow/water%201.jpg" style="height:400px;width: 1024px;" class="img-responsive" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Water</h1>
+              </div>
+            </div>
+          </div>
+             <div class="item">
+            <img class="fifth-slide" src="slideshow/maxresdefault.jpg" style="height:400px;width: 1024px;" class="img-responsive" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Janitorial</h1>
+              </div>
+            </div>
+          </div>
+             <div class="item">
+            <img class="sixth-slide" src="slideshow/janitorial1.jpg" style="height:400px;width: 1024px;" class="img-responsive" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Janitorial</h1>
               </div>
             </div>
           </div>
@@ -164,21 +185,23 @@
     </div><!--main body-->
       <div class="col-sm-1">&nbsp;</div>
   </div><!--Slideshow and category menu-->
-  <div class="row" style="background: #f2f2f2;padding: 42px 0 15px;"><!--about us-->
+  <div class="row" style="padding: 42px 0 15px;"><!--about us-->
       <div class="col-sm-6">
-          <h5 style="margin: 0 0 15px;font-size: 13px;font-weight: 300;color: #2f2f2f;">About</h5>
-          <p style="line-height: 19px;">Flowan General Supplies is a company that sources and delivers all your office and cleaning  supplies at cost effective prices. The company was founded  and registered with the Registrar of Companies in May 2015 by Florence W. Ngugi as a sole proprietorship to take care of the endless demands of all kinds of office and cleaning supplies in the country. </p>
+          <h5 style="margin: 0 0 15px;font-size: 17px;font-weight: 300;color: #2f2f2f;">About Us</h5>
+          <p style="
+          line-height: 19px;font-size: 14px;
+          ">Flowan General Supplies is a company that sources and delivers all your office and cleaning  supplies at cost effective prices. The company was carefully thought to take care of the endless demands of all kinds of office cleaning and sanitary supplies, office and school stationery, dry foods and cerals supplies in the country. </p>
       </div>
       <div class="col-sm-6">
-          <h5 style="margin: 0 0 15px;font-size: 13px;font-weight: 300;color: #2f2f2f;">What We do</h5>
-          <p style="line-height: 19px;">Flowan goes beyond all customer expectations to source and deliver all supplies to our customers. </p>
-          <h5 style="margin: 0 0 15px;font-size: 13px;font-weight: 300;color: #2f2f2f;">How we do it</h5>
-          <p style="line-height: 19px;">Reliability, safety, and commitment describe us.</p>
+          <h5 style="margin: 0 0 15px;font-size: 17px;font-weight: 300;color: #2f2f2f;">What We do</h5>
+          <p style="line-height: 19px;font-size: 14px;">Flowan goes beyond all customer expectations to source and deliver all supplies to our customers. </p>
+          <h5 style="margin: 0 0 15px;font-size: 17px;font-weight: 300;color: #2f2f2f;">How we do it</h5>
+          <p style="line-height: 19px;font-size: 14px;">Reliability, safety, and commitment describe us.</p>
       </div>
   </div><!--about us-->
-
-
-
+<footer class="row">
+    <p><i class="fa fa-copyright"></i> &nbsp;<?php echo date('Y'); ?>&nbsp; Flowan General Suppliers&nbsp;| All Rights Reserved</p>
+      </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
