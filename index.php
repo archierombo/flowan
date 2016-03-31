@@ -42,7 +42,7 @@
               <li><a href="index.php" class="active">Home</a></li>
 <!--              <li><a href="#">About Us</a> </li>-->
               <li><a href="#">Supplies</a> </li>
-              <li><a href="#">Contact Us</a> </li>
+              <li><a href="contact.php">Contact</a> </li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
