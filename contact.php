@@ -33,7 +33,7 @@
 <div class="row"><!--menu-->
     <div class="col-sm-12 col-md-12">
         <nav class="navbar navbar-default">
-            <div class="container-fluid">
+            <div class="container-fluid" style="box-shadow: 0px 0px 10px rgba(0,0,0,0.1);height: 73px;">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">

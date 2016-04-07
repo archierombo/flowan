@@ -24,7 +24,7 @@
   <div class="row"><!--menu-->
     <div class="col-sm-12 col-md-12">
       <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class="container-fluid" style="box-shadow: 0px 0px 10px rgba(0,0,0,0.1);height: 73px;">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -39,7 +39,7 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.php" class="active">Home</a></li>
+              <li class="active"><a href="index.php">Home</a></li>
 <!--              <li><a href="#">About Us</a> </li>-->
               <li><a href="#">Supplies</a> </li>
               <li><a href="contact.php">Contact</a> </li>
@@ -93,6 +93,9 @@
           <li data-target="#myCarousel" data-slide-to="3"></li>
           <li data-target="#myCarousel" data-slide-to="4"></li>
           <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active">
@@ -143,6 +146,30 @@
               </div>
             </div>
           </div>
+            <div class="item">
+                <img class="seventh-slide" src="img/computer1.png" style="height:400px;width: 1024px;" class="img-responsive" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Computers</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="eigth-slide" src="img/mac.jpg" style="height:400px;width: 1024px;" class="img-responsive" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Mac Books</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="nineth-slide" src="img/computer-accessories.png" style="height:400px;width: 1024px;" class="img-responsive" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Computer Accesories</h1>
+                    </div>
+                </div>
+            </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -170,6 +197,20 @@
     </div>
   </div><!--after slideshow-->
         <div class="clearfix">&nbsp;</div>
+        <div class="row" id="supplies"><!--after slideshow-->
+            <div class="col-sm-3">
+                <img src="img/computer1.png" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-sm-3">
+                <img src="img/mac.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-sm-3">
+                <img src="img/HP255Laptop.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-sm-3">
+                <img src="img/computer-accessories.png" class="img-responsive img-thumbnail">
+            </div>
+        </div><!--after slideshow-->
         <h3 class="latest">Latest&nbsp;&nbsp;<i class="fa fa-chevron-down"></i></h3>
         <div class="row"><!--latest-->
             <div class="col-sm-4">

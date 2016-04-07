@@ -46,7 +46,7 @@ body{
 font-size: 19px;
 line-height: 24px;
 font-weight: 400;
-background: #19caaf;
+    background: #8a2908;
 border-top-right-radius: 3px;
 border-top-left-radius: 3px;
 color: #FFF;
@@ -60,8 +60,8 @@ ul.side-menu li a{
 .side-menu li > a{
     padding: 13px 30px 13px 17px;
     font-size: 14px;
-    color: #2f2f2f;
-    background: #f2f2f2;
+    color: #fedc4e;
+    background: #4B3621;
 }
 .side-menu li{
     position: relative;
@@ -76,7 +76,7 @@ ul.side-menu li a{
 }
 .navbar-default .navbar-nav > li > a {
 
-    color: #4B3621;
+    color: #FFFFFF;
 }
 @media only screen  and (min-width:768px){
     .navbar-nav > li > a {
@@ -89,18 +89,18 @@ ul.side-menu li a{
         margin-top: 20px;
     }
     .specials h3{
-        color: #2f2f2f;
+        color: #FFF;
         margin: 0 0 20px;
         padding: 14px 40px 14px 20px;
-        background-color: #f2f2f2;
+        background-color: #4B3621;
         font-size: 17px;
         font-weight: 400;
     }
     .latest{
-        color: #2f2f2f;
+        color: #FFF;
         margin: 0 0 20px;
         padding: 14px 40px 14px 20px;
-        background-color: #f2f2f2;
+        background-color: #4B3621;
         font-size: 15px;
         font-weight: 400;
     }
@@ -126,4 +126,11 @@ footer{
 .form-control {
     border-radius: 0px;
     box-shadow: none;
+}
+.navbar-default{
+    height: 73px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #ffda50;
+    background-color: transparent;
 }
